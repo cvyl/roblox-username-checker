@@ -119,7 +119,7 @@ def main():
         print("Exiting the program.")
         os._exit(0)
     else:
-        os.system('cls' if os.name == 'nt' else 'clear')  # Clear the console
+        os.system('cls')  # Clear the console
         main()
 
 def check_and_print(new_username, valid_username_file, existing_usernames, is_valid, valid_count, num_valid_usernames):
